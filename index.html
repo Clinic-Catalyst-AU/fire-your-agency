@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fire Your Marketing Agency | 2-Day Build - Brisbane, August 2026</title>
-<meta name="description" content="In the age of AI, you don't need an agency. In two days we build our marketing, automation and nurture systems with you - and an AI that sounds like you, not every generic voice online. Any industry. Brisbane, August 2026. 10 spots only.">
+<meta name="description" content="Build the same systems agencies charge thousands per month for - then own them forever. Two days, hands-on, built with you. Brisbane, August 2026. 10 businesses only.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -22,13 +22,12 @@ body{font-family:'Open Sans',sans-serif;background:var(--hero-dark);color:var(--
 .wrap{max-width:1180px;margin:0 auto;padding:0 1.5rem;}
 .label{font-family:'Montserrat',sans-serif;font-size:.65rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--teal-bright);margin-bottom:1rem;}
 h2.section-title{font-family:'Montserrat',sans-serif;font-size:clamp(1.5rem,3.2vw,2.2rem);font-weight:800;text-transform:uppercase;line-height:1.12;margin-bottom:1.1rem;letter-spacing:.01em;}
-.section-lead{font-size:clamp(1rem,1.5vw,1.12rem);color:rgba(255,255,255,.78);max-width:700px;margin-bottom:3rem;}
+.section-lead{font-size:clamp(1rem,1.5vw,1.12rem);color:rgba(255,255,255,.78);max-width:720px;margin-bottom:3rem;}
 .light .section-lead{color:var(--text-mid);}
 a{color:inherit;}
 .btn-primary{display:inline-block;background:var(--teal-bright);color:var(--hero-dark);padding:1rem 2.6rem;font-family:'Montserrat',sans-serif;font-size:.78rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:none;cursor:pointer;transition:transform .2s,box-shadow .2s;}
 .btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(0,212,188,.3);}
-.btn-outline{display:inline-block;border:2px solid var(--teal-bright);color:var(--teal-bright);padding:.85rem 2rem;font-family:'Montserrat',sans-serif;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;background:transparent;cursor:pointer;transition:background .2s,color .2s;}
-.btn-outline:hover{background:var(--teal-bright);color:var(--hero-dark);}
+.cta-center{text-align:center;margin-top:2.4rem;}
 
 /* NAV */
 nav{position:sticky;top:0;z-index:50;background:rgba(10,42,40,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(0,212,188,.18);}
@@ -44,39 +43,15 @@ nav{position:sticky;top:0;z-index:50;background:rgba(10,42,40,.92);backdrop-filt
 .hero-overlay{position:absolute;inset:0;z-index:1;background:linear-gradient(100deg,rgba(8,30,28,.96) 0%,rgba(10,42,40,.8) 44%,rgba(13,61,56,.38) 100%);}
 .hero-overlay:after{content:"";position:absolute;inset:0;box-shadow:inset 0 -130px 120px -40px rgba(6,29,27,.9);}
 .hero .wrap{position:relative;z-index:2;padding-top:5rem;padding-bottom:5rem;}
-/* portrait feature player */
-.portrait-player{position:relative;width:100%;max-width:340px;aspect-ratio:9/16;border:1px solid rgba(0,212,188,.4);box-shadow:0 30px 70px rgba(0,0,0,.5);overflow:hidden;background:#061d1b;}
-.portrait-player video{width:100%;height:100%;object-fit:cover;display:block;}
-
-/* MEET YOUR GUIDES */
-.guides{position:relative;overflow:hidden;}
-.guides-bg{position:absolute;inset:0;z-index:0;background:url('web-conf-networking.jpg') center/cover no-repeat;opacity:.16;}
-.guides-bg:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,42,40,.85),rgba(10,42,40,.95));}
-.guides .wrap{position:relative;z-index:1;}
-.guides-feature{display:grid;grid-template-columns:1.25fr .75fr;gap:2.6rem;align-items:center;margin-bottom:2.4rem;}
-.landscape-player{position:relative;border:1px solid rgba(0,212,188,.3);box-shadow:0 24px 60px rgba(0,0,0,.45);overflow:hidden;background:#061d1b;}
-.landscape-player video{width:100%;display:block;aspect-ratio:16/9;object-fit:cover;}
-.why-blocks{display:flex;flex-direction:column;gap:1.1rem;}
-.why-block{border-left:3px solid var(--teal-bright);padding:.4rem 0 .4rem 1.1rem;}
-.why-block h4{font-family:'Montserrat',sans-serif;font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--teal-bright);margin-bottom:.4rem;}
-.why-block p{font-size:.92rem;color:rgba(255,255,255,.8);}
-.guides-lower{display:grid;grid-template-columns:.62fr 1.38fr;gap:2.2rem;align-items:stretch;}
-.photo-strip{display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:1fr;gap:.8rem;}
-.photo-strip img{width:100%;height:100%;min-height:130px;object-fit:cover;display:block;border:1px solid rgba(0,212,188,.18);}
-.guides-lower .portrait-player{margin:0;max-width:none;justify-self:stretch;}
-@media(max-width:820px){
-  .portrait-player{max-width:290px;margin:0 auto;}
-  .guides-feature{grid-template-columns:1fr;gap:1.8rem;}
-  .guides-lower{grid-template-columns:1fr;gap:1.6rem;}
-  .guides-lower .portrait-player{max-width:290px;margin:0 auto;}
-}
 .hero-badge{display:inline-block;padding:.5rem 1.4rem;border:1.5px solid var(--teal-bright);background:rgba(0,212,188,.08);font-family:'Montserrat',sans-serif;font-size:.62rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--teal-bright);margin-bottom:1.8rem;}
-.hero h1{font-family:'Montserrat',sans-serif;font-size:clamp(2.4rem,6.5vw,4.6rem);font-weight:900;text-transform:uppercase;line-height:1.02;margin-bottom:1.4rem;max-width:16ch;}
+.hero h1{font-family:'Montserrat',sans-serif;font-size:clamp(2.4rem,6.5vw,4.6rem);font-weight:900;text-transform:uppercase;line-height:1.02;margin-bottom:1.3rem;max-width:16ch;}
 .hero h1 em{color:var(--teal-bright);font-style:normal;}
-.hero-sub{font-size:clamp(1.02rem,1.7vw,1.22rem);color:rgba(255,255,255,.85);max-width:640px;margin-bottom:2.2rem;}
-.hero-meta{display:flex;flex-wrap:wrap;gap:2.2rem;margin-bottom:2.4rem;}
-.hero-meta-item .k{font-family:'Montserrat',sans-serif;font-size:.6rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.55);margin-bottom:.3rem;}
-.hero-meta-item .v{font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:var(--teal-bright);letter-spacing:.03em;}
+.hero-sub{font-size:clamp(1.02rem,1.7vw,1.22rem);color:rgba(255,255,255,.88);max-width:640px;margin-bottom:1rem;}
+.hero-tag{font-family:'Montserrat',sans-serif;font-size:.8rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--white);margin-bottom:2rem;}
+.hero-stats{display:flex;flex-wrap:wrap;gap:1.8rem;margin-bottom:2.2rem;}
+.hero-stat{border-left:2px solid var(--teal-bright);padding-left:.85rem;}
+.hero-stat .n{font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.25rem;color:var(--teal-bright);line-height:1;}
+.hero-stat .l{font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.62);margin-top:.35rem;font-family:'Montserrat',sans-serif;font-weight:700;}
 .hero-cta-row{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;}
 .hero-price{font-family:'Montserrat',sans-serif;font-size:.8rem;font-weight:700;color:rgba(255,255,255,.7);letter-spacing:.04em;}
 .hero-price strong{color:var(--white);font-weight:900;font-size:1.05rem;}
@@ -89,15 +64,10 @@ section.block{padding:5.5rem 0;}
 .light .label{color:var(--teal-dark);}
 .light h2.section-title{color:var(--text-dark);}
 
-/* MANIFESTO */
-.manifesto{text-align:center;}
-.manifesto .big{font-family:'Montserrat',sans-serif;font-size:clamp(1.4rem,3vw,2rem);font-weight:800;line-height:1.3;max-width:900px;margin:0 auto 1.4rem;text-transform:none;}
-.manifesto .big em{color:var(--teal-bright);font-style:normal;}
-.manifesto p.sub{color:rgba(255,255,255,.72);max-width:680px;margin:0 auto;font-size:1.02rem;}
-
-/* WHO FOR */
+/* PROBLEM / WHO cards */
 .who-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.4rem;}
 .who-card{background:rgba(255,255,255,.04);border:1px solid rgba(0,212,188,.18);border-left:3px solid var(--teal-bright);padding:1.6rem;}
+.who-card .ic{font-size:1.4rem;margin-bottom:.6rem;display:block;}
 .who-card h4{font-family:'Montserrat',sans-serif;font-size:.82rem;font-weight:800;text-transform:uppercase;letter-spacing:.03em;margin-bottom:.6rem;color:var(--white);}
 .who-card p{font-size:.92rem;color:rgba(255,255,255,.72);}
 
@@ -106,35 +76,53 @@ section.block{padding:5.5rem 0;}
 .day-head{display:flex;align-items:baseline;gap:1.2rem;margin-bottom:.4rem;flex-wrap:wrap;}
 .day-num{font-family:'Montserrat',sans-serif;font-size:2.6rem;font-weight:900;color:rgba(0,212,188,.22);line-height:1;}
 .day-title{font-family:'Montserrat',sans-serif;font-size:clamp(1.05rem,2vw,1.4rem);font-weight:900;text-transform:uppercase;letter-spacing:.02em;}
-.day-result{font-size:.92rem;color:var(--teal-bright);font-weight:600;margin-bottom:1.8rem;}
-.agenda{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.2rem;}
-.agenda-item{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);padding:1.3rem;transition:border-color .2s,transform .2s;}
-.agenda-item:hover{border-color:var(--teal-bright);transform:translateY(-3px);}
-.agenda-item h4{font-family:'Montserrat',sans-serif;font-size:.74rem;font-weight:800;text-transform:uppercase;letter-spacing:.04em;margin-bottom:.5rem;color:var(--white);}
-.agenda-item p{font-size:.88rem;color:rgba(255,255,255,.7);}
+.day-bullets{list-style:none;margin-top:1.2rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:.6rem 1.6rem;}
+.day-bullets li{padding:.45rem 0 .45rem 1.7rem;position:relative;font-size:.93rem;color:rgba(255,255,255,.8);}
+.day-bullets li:before{content:"\2713";position:absolute;left:0;color:var(--teal-bright);font-weight:800;}
 
-/* WALKAWAY */
-.walk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:1.3rem;}
-.walk-card{background:rgba(255,255,255,.04);border:1px solid rgba(0,212,188,.16);padding:1.7rem;position:relative;transition:transform .2s,border-color .2s;}
+/* WALK / WORKSHOP grid */
+.walk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.3rem;}
+.walk-card{background:rgba(255,255,255,.04);border:1px solid rgba(0,212,188,.16);padding:1.7rem;transition:transform .2s,border-color .2s;}
 .walk-card:hover{transform:translateY(-4px);border-color:var(--teal-bright);}
-.walk-icon{font-family:'Montserrat',sans-serif;font-size:.7rem;font-weight:800;letter-spacing:.14em;color:var(--teal-bright);text-transform:uppercase;margin-bottom:.9rem;display:block;}
 .walk-card h4{font-family:'Montserrat',sans-serif;font-size:.92rem;font-weight:800;margin-bottom:.55rem;color:var(--white);}
 .walk-card p{font-size:.9rem;color:rgba(255,255,255,.74);}
 
-/* FEATURE */
-.feature{display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center;}
-.feature-photo{position:relative;}
-.feature-photo img{width:100%;height:100%;min-height:340px;object-fit:cover;display:block;border:1px solid rgba(0,212,188,.2);}
-.feature-tag{font-family:'Montserrat',sans-serif;font-size:.6rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-bright);position:absolute;bottom:1rem;left:1rem;background:rgba(10,42,40,.85);padding:.4rem .8rem;}
-.feature ul{list-style:none;margin-top:1.4rem;}
-.feature li{padding:.7rem 0 .7rem 1.8rem;position:relative;font-size:.95rem;color:rgba(255,255,255,.82);border-bottom:1px solid rgba(255,255,255,.07);}
-.feature li:before{content:"";position:absolute;left:0;top:1.05rem;width:9px;height:9px;background:var(--teal-bright);}
-.feature li strong{color:var(--white);font-weight:700;}
+/* RESULTS band */
+.stats-band{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1.8rem;text-align:center;}
+.stat-item .n{font-family:'Montserrat',sans-serif;font-weight:900;font-size:clamp(2rem,4vw,2.7rem);color:var(--teal-bright);line-height:1;}
+.stat-item .l{font-size:.9rem;color:rgba(255,255,255,.75);margin-top:.6rem;}
+
+/* FOR / NOT */
+.fornot{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem;}
+.fornot .col{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);padding:1.7rem;}
+.fornot .col.yes{border-top:3px solid var(--teal-bright);}
+.fornot .col.no{border-top:3px solid var(--red);}
+.fornot h4{font-family:'Montserrat',sans-serif;font-size:.8rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;margin-bottom:1rem;}
+.fornot ul{list-style:none;}
+.fornot li{padding:.5rem 0 .5rem 1.8rem;position:relative;font-size:.9rem;color:rgba(255,255,255,.8);}
+.fornot .yes li:before{content:"\2713";position:absolute;left:0;color:var(--teal-bright);font-weight:800;}
+.fornot .no li:before{content:"\2715";position:absolute;left:0;color:var(--red);font-weight:800;}
+@media(max-width:680px){.fornot{grid-template-columns:1fr;}}
+
+/* FACILITATORS */
+.facil-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem;}
+.facil-card{background:rgba(255,255,255,.04);border:1px solid rgba(0,212,188,.18);padding:1.8rem;}
+.facil-card h4{font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:800;color:var(--white);margin-bottom:.2rem;}
+.facil-card .role{font-family:'Montserrat',sans-serif;font-size:.64rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--teal-bright);margin-bottom:1rem;}
+.facil-card p{font-size:.9rem;color:rgba(255,255,255,.78);}
+@media(max-width:680px){.facil-grid{grid-template-columns:1fr;}}
+
+/* VIDEO players */
+.video-wrap{position:relative;max-width:920px;margin:1.6rem auto 0;border:1px solid rgba(0,212,188,.25);}
+.video-wrap video{width:100%;display:block;}
+.portrait-player{position:relative;width:100%;max-width:340px;aspect-ratio:9/16;border:1px solid rgba(0,212,188,.4);box-shadow:0 30px 70px rgba(0,0,0,.5);overflow:hidden;background:#061d1b;}
+.portrait-player video{width:100%;height:100%;object-fit:cover;display:block;}
+.video-cap{text-align:center;font-family:'Montserrat',sans-serif;font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-bright);margin-top:1rem;}
 
 /* SETUP */
 .setup-intro{max-width:680px;margin-bottom:2.6rem;color:var(--text-mid);font-size:1rem;}
-.setup-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.3rem;}
-.setup-card{background:var(--white);border:1px solid var(--border);border-top:3px solid var(--teal);padding:1.7rem;}
+.setup-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.3rem;}
+.setup-card{background:var(--white);border:1px solid var(--border);border-top:3px solid var(--teal);padding:1.6rem;}
 .setup-num{font-family:'Montserrat',sans-serif;font-size:1.5rem;font-weight:900;color:var(--teal);opacity:.45;line-height:1;margin-bottom:.6rem;}
 .setup-card h4{font-family:'Montserrat',sans-serif;font-size:.9rem;font-weight:800;text-transform:uppercase;letter-spacing:.03em;color:var(--text-dark);margin-bottom:.5rem;}
 .setup-card .role{font-family:'Montserrat',sans-serif;font-size:.62rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-dark);margin-bottom:.7rem;}
@@ -142,23 +130,16 @@ section.block{padding:5.5rem 0;}
 .setup-note{margin-top:2.4rem;background:rgba(0,180,160,.08);border:1px solid var(--teal);padding:1.4rem 1.6rem;color:var(--text-dark);font-size:.95rem;max-width:780px;}
 .setup-note strong{color:var(--teal-dark);}
 
-/* VIDEO */
-.video-wrap{position:relative;max-width:920px;margin:2.4rem auto 0;border:1px solid rgba(0,212,188,.25);}
-.video-wrap video{width:100%;display:block;}
-.video-cap{text-align:center;font-family:'Montserrat',sans-serif;font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-bright);margin-top:1rem;}
-
-/* EOI / DETAILS */
+/* EOI / INVEST */
 .eoi-box{max-width:760px;margin:0 auto;background:rgba(255,255,255,.04);border:1px solid rgba(0,212,188,.25);padding:3rem 2.4rem;text-align:center;}
-.eoi-stats{display:flex;flex-wrap:wrap;justify-content:center;gap:2.4rem;margin-bottom:2rem;}
-.eoi-stat .n{font-family:'Montserrat',sans-serif;font-size:clamp(2rem,5vw,2.8rem);font-weight:900;color:var(--teal-bright);line-height:1;}
-.eoi-stat .l{font-family:'Montserrat',sans-serif;font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.6);margin-top:.5rem;}
-.eoi-list{list-style:none;text-align:left;max-width:480px;margin:0 auto 2rem;}
+.eoi-badge{display:inline-block;background:rgba(232,64,64,.12);border:1px solid var(--red);color:#ff8b8b;font-family:'Montserrat',sans-serif;font-size:.62rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:.4rem 1rem;margin-bottom:1.4rem;}
+.eoi-price{font-family:'Montserrat',sans-serif;font-size:clamp(2.4rem,6vw,3.4rem);font-weight:900;color:var(--teal-bright);line-height:1;}
+.eoi-price small{display:block;font-size:.9rem;color:rgba(255,255,255,.6);font-weight:600;margin-top:.5rem;letter-spacing:.02em;}
+.eoi-list{list-style:none;text-align:left;max-width:500px;margin:2rem auto;}
 .eoi-list li{padding:.6rem 0 .6rem 1.8rem;position:relative;font-size:.93rem;color:rgba(255,255,255,.82);}
 .eoi-list li:before{content:"\2713";position:absolute;left:0;color:var(--teal-bright);font-weight:800;}
 .eoi-fine{font-size:.82rem;color:rgba(255,255,255,.55);margin-top:1rem;}
-.form-placeholder{margin-top:2.2rem;border:2px dashed rgba(0,212,188,.45);background:rgba(0,212,188,.04);padding:2.4rem 1.5rem;border-radius:2px;}
-.form-placeholder p{font-family:'Montserrat',sans-serif;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-bright);}
-.form-placeholder small{display:block;margin-top:.6rem;color:rgba(255,255,255,.5);font-family:'Open Sans',sans-serif;font-weight:400;letter-spacing:0;text-transform:none;font-size:.82rem;}
+.eoi-form{margin-top:2.2rem;}
 
 /* FAQ */
 .faq-item{border-bottom:1px solid var(--border);}
@@ -176,13 +157,9 @@ section.block{padding:5.5rem 0;}
 
 footer{background:#061d1b;padding:2.4rem 0;text-align:center;}
 footer p{font-size:.78rem;color:rgba(255,255,255,.45);}
+footer .cities{font-family:'Montserrat',sans-serif;font-size:.66rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-bright);margin-bottom:.7rem;}
 
-@media(max-width:780px){
-  .feature{grid-template-columns:1fr;gap:1.8rem;}
-  .feature-photo{order:-1;}
-  .hero-meta{gap:1.4rem;}
-  section.block{padding:4rem 0;}
-}
+@media(max-width:780px){ .hero-stats{gap:1.2rem;} section.block{padding:4rem 0;} }
 </style>
 </head>
 <body>
@@ -204,11 +181,12 @@ footer p{font-size:.78rem;color:rgba(255,255,255,.45);}
   <div class="wrap">
     <div class="hero-badge">Brisbane · August 2026 · Only 10 Spots</div>
     <h1>Fire Your <em>Marketing Agency</em></h1>
-    <p class="hero-sub">In the age of AI, you don't need an agency on retainer. In two days we build our marketing, automation and nurture systems with you - plus an AI that sounds like you, not every other generic voice on the internet. Any industry. You walk out owning all of it.</p>
-    <div class="hero-meta">
-      <div class="hero-meta-item"><div class="k">When</div><div class="v">August 2026</div></div>
-      <div class="hero-meta-item"><div class="k">Where</div><div class="v">Brisbane</div></div>
-      <div class="hero-meta-item"><div class="k">Spots</div><div class="v">10 Only</div></div>
+    <p class="hero-sub">Build the same systems agencies charge thousands per month for - then own them forever. No more retainers. No more dependency.</p>
+    <p class="hero-tag">Built with you. In 2 days. Yours forever.</p>
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="n">854%</div><div class="l">ROAS achieved</div></div>
+      <div class="hero-stat"><div class="n">&lt;60s</div><div class="l">Lead response time</div></div>
+      <div class="hero-stat"><div class="n">2 Days</div><div class="l">To own it forever</div></div>
     </div>
     <div class="hero-cta-row">
       <a href="#eoi" class="btn-primary">Register Your Interest</a>
@@ -217,42 +195,63 @@ footer p{font-size:.78rem;color:rgba(255,255,255,.45);}
   </div>
 </header>
 
-<!-- MANIFESTO -->
+<!-- THE PROBLEM (Why Now) -->
 <section class="block dark-alt">
-  <div class="wrap manifesto">
-    <div class="label">Why Now</div>
-    <p class="big">Agencies sell you dependence. We hand you the controls. In two days you build the <em>marketing, the automation and the AI</em> that runs your business - and you own every piece of it.</p>
-    <p class="sub">This is not a conference and it's not a course you watch and forget. It's a real workshop - we take you through it screen by screen, button by button. You bring your laptop and your logins, we build it live with you, and you walk out with leads coming in and being nurtured in real time. Then you never write another agency invoice.</p>
+  <div class="wrap">
+    <div class="label">The Problem</div>
+    <h2 class="section-title">You're paying for something you could own.</h2>
+    <p class="section-lead">Agencies sell you dependence. We hand you the controls. These are the exact frustrations business owners tell us about - and what two days in the room fixes for good.</p>
+    <div class="who-grid">
+      <div class="who-card"><span class="ic">💸</span><h4>Renting, Not Owning</h4><p>Every month your agency invoices you for work you could do yourself - if someone just showed you how. $3,000 to $8,000 a month in retainers. For ads you can't see into, systems you don't control, and results you can't explain.</p></div>
+      <div class="who-card"><span class="ic">🔒</span><h4>Total Dependency</h4><p>If the agency leaves, the whole machine falls apart. Worse - you don't even know what's running or why. You're locked out of your own growth.</p></div>
+      <div class="who-card"><span class="ic">🐌</span><h4>Leads Going Cold</h4><p>Someone enquires at 8pm. Nobody follows up. By 9am they've booked somewhere else. Speed is the game, and agencies don't move fast enough.</p></div>
+      <div class="who-card"><span class="ic">📊</span><h4>Zero Visibility</h4><p>You get a monthly report full of vanity metrics. But you still can't answer the one question that matters: how many enquiries actually became customers?</p></div>
+    </div>
   </div>
 </section>
 
 <!-- PROMO + TESTIMONIAL VIDEO -->
 <section class="block dark">
   <div class="wrap" style="text-align:center;">
-    <div class="label">Hear It From Us</div>
-    <h2 class="section-title">This is what we do. Every day.</h2>
-    <p class="section-lead" style="margin:0 auto 1.6rem;">Alicia builds the offers, ads and content that fill calendars. Kelly builds the AI systems and automations that make sure leads convert. Between us, we've built marketing and automation for businesses across Australia.</p>
+    <div class="label">See Us In Action</div>
+    <h2 class="section-title">This is what we do. Watch.</h2>
+    <p class="section-lead" style="margin:0 auto 1.6rem;">Two operators who have built these exact systems for businesses across Australia - not consultants, not theorists.</p>
     <!-- PORTRAIT PROMO + TESTIMONIAL (source: Downloads/aiWsoul PromoAndtestimonial.mp4, with audio). -->
     <div class="portrait-player" style="margin:0 auto;">
       <video controls playsinline preload="none" poster="cc-aliciakelly-poster.jpg">
         <source src="cc-aliciakelly-portrait.mp4" type="video/mp4">
       </video>
     </div>
-    <div style="margin-top:2.2rem;"><a href="#eoi" class="btn-primary">Register Your Interest</a></div>
+    <div class="cta-center"><a href="#eoi" class="btn-primary">Register Your Interest</a></div>
   </div>
 </section>
 
-<!-- WHO FOR -->
+<!-- IS THIS FOR YOU -->
 <section class="block dark-alt">
   <div class="wrap">
-    <div class="label">Who This Is For</div>
-    <h2 class="section-title">Any business that's done overpaying for marketing</h2>
-    <p class="section-lead">Whatever your industry - if you get customers, follow them up, and want it to run without you babysitting it, this is built for you. You've outgrown doing it all yourself, but you're not ready to hand $3K a month to an agency that doesn't sound like you.</p>
-    <div class="who-grid">
-      <div class="who-card"><h4>Drowning in admin</h4><p>Chasing leads between jobs, answering DMs at 9pm, running your marketing from your phone. Something has to give.</p></div>
-      <div class="who-card"><h4>Done with agency invoices</h4><p>You don't want to pay $3K a month for marketing you don't control and content that sounds like everyone else.</p></div>
-      <div class="who-card"><h4>Tried piecing it together</h4><p>Bits from YouTube, free downloads sitting in a folder. Nothing connects. You need it set up properly, once.</p></div>
-      <div class="who-card"><h4>Want to own it</h4><p>When something needs changing, you want to fix it yourself - not wait three days for an agency to reply.</p></div>
+    <div class="label">Is This For You?</div>
+    <h2 class="section-title">For owners who are done.</h2>
+    <p class="section-lead">Done waiting on agencies. Done paying monthly. Done being the bottleneck in your own growth.</p>
+    <div class="fornot">
+      <div class="col yes">
+        <h4>This is for you if</h4>
+        <ul>
+          <li>You're currently paying an agency and want to cut that cost</li>
+          <li>You're tired of slow follow-up losing customers to competitors</li>
+          <li>You want to understand and control your own marketing</li>
+          <li>You're ready to build something once and keep it forever</li>
+          <li>You want real hands-on help - not another online course</li>
+        </ul>
+      </div>
+      <div class="col no">
+        <h4>This isn't for you if</h4>
+        <ul>
+          <li>You want someone else to do it all for you indefinitely</li>
+          <li>You're not willing to spend 2 focused days building</li>
+          <li>You have no interest in understanding how your marketing works</li>
+          <li>You're looking for a cheap shortcut with no real implementation</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
@@ -260,35 +259,30 @@ footer p{font-size:.78rem;color:rgba(255,255,255,.45);}
 <!-- THE 2 DAYS -->
 <section class="block dark">
   <div class="wrap">
-    <div class="label">The Build</div>
-    <h2 class="section-title">Two days. Everything live.</h2>
-    <p class="section-lead">We don't teach theory. We sit beside you and go screen by screen - building your real campaigns and systems with you, in the room, until the leads are coming in and being nurtured in real time. Here's what we build.</p>
+    <div class="label">The 2 Days</div>
+    <h2 class="section-title">What happens in the room.</h2>
+    <p class="section-lead">This is not a seminar. You're not taking notes about things you might do later. You're building it live, with us guiding every step - screen by screen, button by button.</p>
 
     <div class="day">
-      <div class="day-head"><div class="day-num">01</div><div class="day-title">Day One - Customers Coming In</div></div>
-      <div class="day-result">By tonight: your ads are live, and your AI assistant is set up and answering your inbox.</div>
-      <div class="agenda">
-        <div class="agenda-item"><h4>Your Offer Strategy</h4><p>Map the offers and campaigns that actually get customers through your door, built for your industry.</p></div>
-        <div class="agenda-item"><h4>Ads Built &amp; Live</h4><p>Real Facebook, Instagram and Google campaigns - creative, copy, targeting, budget - ready to switch on.</p></div>
-        <div class="agenda-item"><h4>Landing Pages</h4><p>High-converting pages that match your offers and capture every click straight into your CRM.</p></div>
-        <div class="agenda-item"><h4>Your Business Brain</h4><p>In 15 minutes your AI learns your business - services, prices, brand, voice. Everything it makes sounds like you.</p></div>
-        <div class="agenda-item"><h4>Your Inbox, Handled</h4><p>AI reads your email and DMs, drafts replies in your voice, waits for your one-tap approval. Hours back every week.</p></div>
-        <div class="agenda-item"><h4>Social Strategy</h4><p>A content plan you can stick to, plus your first branded carousel made in under a minute.</p></div>
-      </div>
+      <div class="day-head"><div class="day-num">01</div><div class="day-title">Strategy &amp; Systems Setup</div></div>
+      <ul class="day-bullets">
+        <li>Your offer and customer avatar defined</li>
+        <li>CRM and pipeline built and configured</li>
+        <li>AI Receptionist set up and tested</li>
+        <li>New lead automation sequences live</li>
+        <li>Missed call recovery running</li>
+      </ul>
     </div>
 
     <div class="day">
-      <div class="day-head"><div class="day-num">02</div><div class="day-title">Day Two - The Systems That Keep Them</div></div>
-      <div class="day-result">By tonight: every lead captured, chased and booked automatically - and you know how it works.</div>
-      <div class="agenda">
-        <div class="agenda-item"><h4>Your AI Voice Agent</h4><p>An AI that answers your phone in a natural voice, handles questions and books appointments - on one number with your SMS agent.</p></div>
-        <div class="agenda-item"><h4>Speed-to-Lead &amp; Missed-Call Text-Back</h4><p>Every new lead gets a reply within minutes. Every missed call becomes an instant text. Even after hours.</p></div>
-        <div class="agenda-item"><h4>CRM &amp; Lead Capture</h4><p>Forms, chat, DMs, calls - every lead flowing into one place. Nothing slips through the cracks.</p></div>
-        <div class="agenda-item"><h4>Automated Nurture &amp; Rebooking</h4><p>SMS and email sequences that warm up the not-ready-yet and win back customers who dropped off - in your voice.</p></div>
-        <div class="agenda-item"><h4>Database Reactivation</h4><p>Turn your existing customer list into a revenue engine with a win-back campaign, built and ready to send.</p></div>
-        <div class="agenda-item"><h4>Reviews &amp; Social on Autopilot</h4><p>Automated review requests growing your Google rating, plus a week of social posts scheduled and posting themselves.</p></div>
-        <div class="agenda-item"><h4>Go Live &amp; Optimise</h4><p>We turn it all on together, test every flow, and show you exactly how to read your numbers and adjust.</p></div>
-      </div>
+      <div class="day-head"><div class="day-num">02</div><div class="day-title">Ads, Creative &amp; Launch</div></div>
+      <ul class="day-bullets">
+        <li>Meta and Google ad accounts built</li>
+        <li>Campaign creative and copy written</li>
+        <li>Landing pages connected to your CRM</li>
+        <li>Follow-up and nurture sequences activated</li>
+        <li>First campaign goes live before you leave</li>
+      </ul>
     </div>
   </div>
 </section>
@@ -298,56 +292,67 @@ footer p{font-size:.78rem;color:rgba(255,255,255,.45);}
   <div class="wrap" style="text-align:center;">
     <div class="label">See Us In Action</div>
     <h2 class="section-title">We teach this from the front of the room.</h2>
-    <p class="section-lead" style="margin:0 auto 1.6rem;">Live on stage and live in the workshop - this is exactly how we build it with you.</p>
+    <p class="section-lead" style="margin:0 auto 0;">Kelly &amp; Alicia presenting at the Aesthetic Business Masters Conference.</p>
     <!-- PRESENTING VIDEO (GHL CDN) -->
     <div class="video-wrap">
       <video controls playsinline preload="none" poster="https://assets.cdn.filesafe.space/nrnTN07xakan82JmlsuO/media/6a1503e660ad4b0619369321.jpg">
         <source src="https://assets.cdn.filesafe.space/nrnTN07xakan82JmlsuO/media/6a15054ad2747625ad891d10.mp4" type="video/mp4">
       </video>
     </div>
-    <div style="margin-top:2.2rem;"><a href="#eoi" class="btn-primary">Register Your Interest</a></div>
+    <div class="cta-center"><a href="#eoi" class="btn-primary">Register Your Interest</a></div>
   </div>
 </section>
 
-<!-- VOICE + SMS FEATURE -->
+<!-- THE WORKSHOP (what you build) -->
 <section class="block dark">
   <div class="wrap">
-    <div class="feature">
-      <div>
-        <div class="label">The Headline System</div>
-        <h2 class="section-title">Your phone, answered. One number, voice and text.</h2>
-        <p class="section-lead" style="margin-bottom:0;">A missed call is a customer about to ring your competitor. Not anymore. We set up an AI voice agent that picks up every call in a natural voice, handles the common questions, and books straight into your calendar. Paired with an SMS agent on the same number, so nothing is ever missed.</p>
-        <ul>
-          <li><strong>Answers every call</strong> in a natural, on-brand voice - day or night, even when you're flat out.</li>
-          <li><strong>Books appointments</strong> directly into your calendar, no phone tag.</li>
-          <li><strong>One number for voice and SMS</strong> - a missed call instantly becomes a friendly text-back with your booking link.</li>
-          <li><strong>Speaks in your voice</strong> because it runs off your Business Brain, not a generic script.</li>
-        </ul>
-      </div>
-      <div class="feature-photo">
-        <img src="https://assets.cdn.filesafe.space/nrnTN07xakan82JmlsuO/media/6a15006360ad4b0619364d23.jpg" alt="Kelly and Alicia presenting at a business conference">
-        <div class="feature-tag">Built with you in the room</div>
-      </div>
+    <div class="label">The Workshop</div>
+    <h2 class="section-title">In 2 days, you'll build all of this.</h2>
+    <p class="section-lead">You leave with a fully operational customer acquisition system - live, tested, and running in your business.</p>
+    <div class="walk-grid">
+      <div class="walk-card"><h4>Meta &amp; Google Ads</h4><p>High-converting campaigns built to your offer and your audience.</p></div>
+      <div class="walk-card"><h4>AI Receptionist</h4><p>Responds to enquiries instantly. 24/7. Never misses a lead again.</p></div>
+      <div class="walk-card"><h4>CRM Pipeline</h4><p>Every lead tracked. Every stage visible. No more chasing spreadsheets.</p></div>
+      <div class="walk-card"><h4>Follow-Up Sequences</h4><p>Automated SMS and email nurture that moves leads from curious to booked.</p></div>
+      <div class="walk-card"><h4>New Lead Automations</h4><p>The moment a lead hits your system, they're in a sequence. While you sleep.</p></div>
+      <div class="walk-card"><h4>Booking &amp; Deposit System</h4><p>Capture deposits automatically. Reduce no-shows. Fill the schedule.</p></div>
+      <div class="walk-card"><h4>Reactivation Campaigns</h4><p>Wake up past customers with proven win-back sequences. Revenue hiding in your CRM.</p></div>
+      <div class="walk-card"><h4>ROI Dashboard</h4><p>See exactly what's working, what's converting, and where to scale.</p></div>
     </div>
   </div>
 </section>
 
-<!-- WALKAWAY -->
+<!-- RESULTS -->
 <section class="block dark-alt">
+  <div class="wrap" style="text-align:center;">
+    <div class="label">The Numbers Speak</div>
+    <h2 class="section-title">Results from businesses using these systems.</h2>
+    <div class="stats-band">
+      <div class="stat-item"><div class="n">854%</div><div class="l">ROAS using intro offers with strategic follow-up</div></div>
+      <div class="stat-item"><div class="n">&lt;60s</div><div class="l">Average lead response time after automation</div></div>
+      <div class="stat-item"><div class="n">3×</div><div class="l">Higher deposit conversion vs no follow-up system</div></div>
+      <div class="stat-item"><div class="n">$0</div><div class="l">Monthly agency retainer once you own the system</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FACILITATORS -->
+<section class="block dark">
   <div class="wrap">
-    <div class="label">What You Walk Away With</div>
-    <h2 class="section-title">Not ideas. Working systems.</h2>
-    <p class="section-lead">These are real, running systems you'll have live before you leave the room - and the knowledge to run them yourself.</p>
-    <div class="walk-grid">
-      <div class="walk-card"><span class="walk-icon">Voice + SMS</span><h4>An AI phone line</h4><p>Answers calls, books appointments, and texts back missed calls - all on one number.</p></div>
-      <div class="walk-card"><span class="walk-icon">Ads</span><h4>Live campaigns</h4><p>Facebook, Instagram and Google campaigns built, targeted and generating leads from day one.</p></div>
-      <div class="walk-card"><span class="walk-icon">Capture</span><h4>Every lead, one place</h4><p>Forms, chat, DMs, calls - all captured in your CRM. Nothing falls through.</p></div>
-      <div class="walk-card"><span class="walk-icon">Follow-Up</span><h4>Automated nurture</h4><p>SMS and email sequences that chase leads and rebook customers while you sleep.</p></div>
-      <div class="walk-card"><span class="walk-icon">Reactivation</span><h4>Your database, monetised</h4><p>A win-back campaign that turns your old customer list into new bookings.</p></div>
-      <div class="walk-card"><span class="walk-icon">Content</span><h4>Social on autopilot</h4><p>Branded carousels, captions and a week of posts scheduled and posting themselves.</p></div>
-      <div class="walk-card"><span class="walk-icon">Reviews</span><h4>Google reviews, growing</h4><p>Automated review requests lifting your rating and your search visibility.</p></div>
-      <div class="walk-card"><span class="walk-icon">Sounds Like You</span><h4>An AI in your voice</h4><p>Everything it writes sounds like you - your words, your tone - not a generic robot.</p></div>
-      <div class="walk-card"><span class="walk-icon">The Knowledge</span><h4>You understand it all</h4><p>How it works, how to read your results, and how to adjust everything yourself.</p></div>
+    <div class="label">Your Facilitators</div>
+    <h2 class="section-title">Built by people who live in this industry.</h2>
+    <p class="section-lead">Not consultants. Not theorists. Two operators who've built these exact systems for businesses across Australia.</p>
+    <div class="facil-grid">
+      <div class="facil-card">
+        <h4>Alicia Hagen</h4>
+        <div class="role">Mint Peach Media · Clinic Catalyst</div>
+        <p>15 years in marketing across national brands including Rimmel, Optus and Oracle. Founder of Mint Peach Media, now specialising in AI-powered customer acquisition systems. What she builds works because she's built it, tested it, and refined it with real businesses and real budgets.</p>
+      </div>
+      <div class="facil-card">
+        <h4>Kelly Wotherspoon</h4>
+        <div class="role">Clinic Catalyst Co-Founder</div>
+        <p>Deep expertise in operations, AI systems and growth strategy. Co-founder of Clinic Catalyst, Kelly brings the owner's perspective - she understands front desk overwhelm, inconsistent bookings, and the frustration of marketing spend that doesn't convert.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -356,60 +361,37 @@ footer p{font-size:.78rem;color:rgba(255,255,255,.45);}
 <section class="block light">
   <div class="wrap">
     <div class="label">Before You Arrive</div>
-    <h2 class="section-title">Four quick accounts to set up</h2>
-    <p class="setup-intro">So we spend two days building and not setting up logins, you'll create these before the workshop. It takes about 30 minutes total, we send step-by-step instructions, and we run a live setup call beforehand to do the fiddly bits with you.</p>
+    <h2 class="section-title">A few quick accounts to set up</h2>
+    <p class="setup-intro">So we spend two days building and not setting up logins, you'll create these before the workshop. We send step-by-step instructions and run a live setup call beforehand to do the fiddly bits with you.</p>
     <div class="setup-grid">
-      <div class="setup-card">
-        <div class="setup-num">01</div>
-        <div class="role">Your AI Brain</div>
-        <h4>Claude</h4>
-        <p>The AI that powers everything - your inbox, content, follow-ups and voice agent. Free to create an account; you add a small usage key we'll guide you through.</p>
-      </div>
-      <div class="setup-card">
-        <div class="setup-num">02</div>
-        <div class="role">Your CRM Hub</div>
-        <h4>GoHighLevel</h4>
-        <p>Where your leads, bookings, automations and social posts all live. Sign up early - your text-message approval takes a little time, and we want it ready for the day.</p>
-      </div>
-      <div class="setup-card">
-        <div class="setup-num">03</div>
-        <div class="role">Your Voice</div>
-        <h4>ElevenLabs</h4>
-        <p>The natural, human-sounding voice your AI phone agent speaks in. A quick account so your callers hear a warm, on-brand voice - not a robot.</p>
-      </div>
-      <div class="setup-card">
-        <div class="setup-num">04</div>
-        <div class="role">Your Number</div>
-        <h4>Twilio</h4>
-        <p>One dedicated phone number that runs both your voice agent and your SMS agent together - so every call and every text works off the same line.</p>
-      </div>
+      <div class="setup-card"><div class="setup-num">01</div><div class="role">Your AI Brain</div><h4>Claude</h4><p>The AI that powers your content, follow-ups and assistant. Free account; you add a small usage key we guide you through.</p></div>
+      <div class="setup-card"><div class="setup-num">02</div><div class="role">Your Hub</div><h4>GoHighLevel</h4><p>Where your leads, bookings, automations and ads all live. Sign up early - your text-message approval takes a little time.</p></div>
+      <div class="setup-card"><div class="setup-num">03</div><div class="role">Your Voice</div><h4>ElevenLabs</h4><p>The natural, human-sounding voice your AI phone agent speaks in - so callers hear a warm voice, not a robot.</p></div>
+      <div class="setup-card"><div class="setup-num">04</div><div class="role">Your Number</div><h4>Twilio</h4><p>One dedicated number that runs both your voice agent and your SMS together - every call and text on the same line.</p></div>
     </div>
-    <div class="setup-note"><strong>Don't worry if any of this sounds technical.</strong> You won't do it alone. We send a clear checklist when you're confirmed and run a group setup call before the workshop, so you walk in on Day 1 ready to build.</div>
+    <div class="setup-note"><strong>Don't worry if this sounds technical.</strong> You won't do it alone. We send a clear checklist when you're confirmed and run a group setup call before the workshop, so you walk in ready to build.</div>
   </div>
 </section>
 
-<!-- EOI / INVESTMENT -->
+<!-- INVESTMENT / EOI -->
 <section class="block dark-alt" id="eoi">
   <div class="wrap">
-    <div class="label" style="text-align:center;">The Investment</div>
-    <h2 class="section-title" style="text-align:center;">Ten businesses. Two days. Total ownership.</h2>
+    <div class="label" style="text-align:center;">Investment</div>
+    <h2 class="section-title" style="text-align:center;">Stop paying monthly. Learn once. Own it forever.</h2>
     <div class="eoi-box">
-      <div class="eoi-stats">
-        <div class="eoi-stat"><div class="n">$5,000</div><div class="l">For Your Business</div></div>
-        <div class="eoi-stat"><div class="n">2</div><div class="l">People Can Attend</div></div>
-        <div class="eoi-stat"><div class="n">10</div><div class="l">Spots Only</div></div>
-      </div>
+      <div class="eoi-badge">🔥 Early Bird - Limited to 10 Businesses</div>
+      <div class="eoi-price">$5,000<small>+ GST · up to 2 people from your business · payment plans available</small></div>
       <ul class="eoi-list">
-        <li>Two full days of hands-on building with Alicia &amp; Kelly</li>
-        <li>Bring up to 2 people from your business</li>
-        <li>Your ad campaigns built and live</li>
-        <li>AI voice agent + SMS agent on one number</li>
-        <li>Full nurture system - capture, follow-up, rebooking, reviews</li>
-        <li>Landing pages, social automation and your complete AI toolkit</li>
-        <li>All creatives and copy - yours to keep</li>
-        <li>Post-workshop support to keep everything running</li>
+        <li>2 full days of hands-on building with Alicia and Kelly</li>
+        <li>Your complete customer acquisition system - live on day 2</li>
+        <li>Meta &amp; Google Ads campaigns built to your business</li>
+        <li>AI Receptionist, CRM, follow-up sequences and automations</li>
+        <li>All templates, swipe files and campaign frameworks - yours forever</li>
+        <li>30 days post-workshop support</li>
+        <li>Catering included both days</li>
       </ul>
       <p class="eoi-fine">We keep it to 10 businesses so everyone gets real hands-on attention. This is a build room, not a lecture hall.</p>
+      <!-- EOI FORM (GHL) -->
       <div class="eoi-form">
         <iframe
           src="https://api.leadconnectorhq.com/widget/form/HHVVkl0lB1ux23brA483"
@@ -436,29 +418,33 @@ footer p{font-size:.78rem;color:rgba(255,255,255,.45);}
 <!-- FAQ -->
 <section class="block light">
   <div class="wrap">
-    <div class="label">Questions</div>
-    <h2 class="section-title">Before you register</h2>
-    <div class="faq-item"><button class="faq-q">Is this only for certain industries?<span class="plus">+</span></button><div class="faq-a"><p>No. If your business gets customers, follows them up and books them in, this works for you - services, trades, health, retail, professional, hospitality. We tailor the offers, ads and automations to your industry in the room.</p></div></div>
-    <div class="faq-item"><button class="faq-q">What do I need to bring?<span class="plus">+</span></button><div class="faq-a"><p>Your laptop, your logins (Facebook Business, Google, your email, your booking system), your current offers, and the four accounts from the checklist set up beforehand. We send a full checklist and run a setup call once you're confirmed.</p></div></div>
-    <div class="faq-item"><button class="faq-q">Can I bring someone from my team?<span class="plus">+</span></button><div class="faq-a"><p>Yes - up to two people from your business can attend on the one ticket. Bring the person who'll run the systems day to day so they walk out hands-on confident.</p></div></div>
-    <div class="faq-item"><button class="faq-q">What if I don't have any ads running yet?<span class="plus">+</span></button><div class="faq-a"><p>Even better. We build everything from scratch - offer strategy, creatives, targeting, the lot. You'll leave with campaigns ready to launch, not campaigns to fix.</p></div></div>
-    <div class="faq-item"><button class="faq-q">Is this just an AI receptionist?<span class="plus">+</span></button><div class="faq-a"><p>No - it's far more. The voice agent answering your phone is one part. You also walk out with an AI that handles your inbox, writes and schedules your content, runs your follow-up and nurture, reactivates your database, and chases every lead - all in your voice. It's a whole back office, not a phone line.</p></div></div>
-    <div class="faq-item"><button class="faq-q">How is this different from a done-for-you agency?<span class="plus">+</span></button><div class="faq-a"><p>An agency keeps you dependent and bills you every month. This workshop hands you the systems and the skills to run them yourself - you own everything from day one. No retainer, no waiting on someone else.</p></div></div>
+    <div class="label">Common Questions</div>
+    <h2 class="section-title">FAQ</h2>
+    <div class="faq-item"><button class="faq-q">Do I need any technical experience?<span class="plus">+</span></button><div class="faq-a"><p>No. If you can use a phone, you can build this. We walk every attendee through every step - no assumed knowledge, no tech jargon. You'll leave with everything working, not just notes about how it might work.</p></div></div>
+    <div class="faq-item"><button class="faq-q">What do I need to bring?<span class="plus">+</span></button><div class="faq-a"><p>Bring your laptop and your Facebook and Google account details. We set up everything else in the room. A GHL account is required - we'll help you set one up before the event if you don't have one.</p></div></div>
+    <div class="faq-item"><button class="faq-q">How is this different from just hiring an agency?<span class="plus">+</span></button><div class="faq-a"><p>When you hire an agency you're renting a system you don't own - and you pay indefinitely. After this workshop you own every part of your marketing infrastructure: the campaigns, the automations, the CRM. Run it yourself or hand it to a team member. No more dependency, no more monthly invoices for work you can't see into.</p></div></div>
+    <div class="faq-item"><button class="faq-q">What if I already have an agency running my ads?<span class="plus">+</span></button><div class="faq-a"><p>Perfect timing. You'll finally be able to see exactly what they should be doing - and decide whether they're doing it. Most owners who attend end their agency contract within 90 days of the workshop.</p></div></div>
+    <div class="faq-item"><button class="faq-q">What types of businesses is this suited for?<span class="plus">+</span></button><div class="faq-a"><p>Any business that relies on bookings or enquiries - aesthetics, dental, physio, allied health, medical, wellness, trades and services. The systems we build are industry-agnostic. We specialise in clinics, but the frameworks apply across the board.</p></div></div>
+    <div class="faq-item"><button class="faq-q">Are payment plans available?<span class="plus">+</span></button><div class="faq-a"><p>Yes. Register your interest and we'll be in touch to discuss options. Compare the investment to one month of your current agency retainer - for most businesses, this workshop pays for itself before you leave the room.</p></div></div>
+    <div class="faq-item"><button class="faq-q">How many seats are available?<span class="plus">+</span></button><div class="faq-a"><p>We cap each workshop at 10 businesses so every attendee gets personal attention. When a city sells out, it's gone - dates are limited. Register early to secure your seat and city.</p></div></div>
   </div>
 </section>
 
 <!-- FINAL CTA -->
 <section class="block final">
   <div class="wrap">
-    <h2>Stop renting your marketing. <em>Own it in two days.</em></h2>
-    <p>Only 10 spots in the Brisbane room. Register your interest and we'll be in touch with the details and to confirm your place.</p>
+    <h2>Stop paying for a system <em>you could own.</em></h2>
+    <p>Two days. Everything built. No agency required - ever again. Only 10 spots in the Brisbane room.</p>
     <a href="#eoi" class="btn-primary">Register Your Interest</a>
-    <p style="margin-top:1.4rem;font-size:.8rem;color:rgba(255,255,255,.55);">Brisbane · August 2026 · 10 spots only</p>
+    <p style="margin-top:1.4rem;font-size:.8rem;color:rgba(255,255,255,.55);">Brisbane · August 2026 · Limited seats</p>
   </div>
 </section>
 
 <footer>
-  <p>© 2026 Clinic Catalyst. Alicia Hagen &amp; Kelly Wotherspoon. All rights reserved.</p>
+  <div class="wrap">
+    <p class="cities">Melbourne · Brisbane · Sydney · Perth</p>
+    <p>© 2026 Clinic Catalyst. A Mint Peach Media &amp; Kelly Wotherspoon collaboration. All rights reserved.</p>
+  </div>
 </footer>
 
 <script>
