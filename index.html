@@ -69,7 +69,7 @@ section.block{padding:5.5rem 0;}
 /* PROBLEM / WHO cards */
 .who-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.4rem;}
 .who-card{background:rgba(255,255,255,.04);border:1px solid rgba(0,212,188,.18);border-left:3px solid var(--teal-bright);padding:1.6rem;}
-.who-card .ic{font-size:1.4rem;margin-bottom:.6rem;display:block;}
+.who-card .ic-img{width:100%;height:150px;object-fit:cover;display:block;margin-bottom:1.1rem;border:1px solid rgba(0,212,188,.18);}
 .who-card h4{font-family:'Montserrat',sans-serif;font-size:.82rem;font-weight:800;text-transform:uppercase;letter-spacing:.03em;margin-bottom:.6rem;color:var(--white);}
 .who-card p{font-size:.92rem;color:rgba(255,255,255,.72);}
 
@@ -188,7 +188,7 @@ footer .cities{font-family:'Montserrat',sans-serif;font-size:.66rem;font-weight:
   <div class="wrap">
     <div class="hero-badge">3-Day Hands-On Workshop · Limited Seats</div>
     <h1>Fire Your <em>Marketing Agency</em></h1>
-    <p class="hero-sub">Build the same systems agencies charge thousands per month for - then own them forever. No more retainers. No more dependency.</p>
+    <p class="hero-sub">Build the same systems agencies charge thousands per month for - then own them forever. No more retainers. No more dependency. No more being the admin department of your own clinic.</p>
     <p class="hero-tag">Built with you. In 3 days. Yours forever.</p>
     <div class="hero-stats">
       <div class="hero-stat"><div class="n">854%</div><div class="l">ROAS achieved</div></div>
@@ -207,12 +207,12 @@ footer .cities{font-family:'Montserrat',sans-serif;font-size:.66rem;font-weight:
   <div class="wrap">
     <div class="label">The Problem</div>
     <h2 class="section-title">You're paying for something you could own.</h2>
-    <p class="section-lead">Every month, your agency invoices you for work you could have done yourself - if someone had just shown you how.</p>
+    <p class="section-lead">You didn't open a clinic to spend your nights on follow-up and your mornings decoding an agency report. Every month, your agency invoices you for work you could have done yourself - if someone had just shown you how.</p>
     <div class="who-grid">
-      <div class="who-card"><span class="ic">💸</span><h4>$3,000-$8,000/month in retainers</h4><p>For ads you can't see into, systems you don't control, and results you can't explain. And the contract renewal is coming up.</p></div>
-      <div class="who-card"><span class="ic">🔒</span><h4>Complete dependency on the agency</h4><p>They leave, the whole machine falls apart. Worse - you don't even know what's running or why. You're locked out of your own growth.</p></div>
-      <div class="who-card"><span class="ic">🐌</span><h4>Leads going cold while you wait</h4><p>A patient enquires at 8pm. Nobody follows up. By 9am they've booked somewhere else. Speed is the game and agencies don't move fast enough.</p></div>
-      <div class="who-card"><span class="ic">📊</span><h4>Zero visibility into what's actually working</h4><p>You get a monthly report with vanity metrics. But you still can't answer: how many enquiries became patients? Where are leads dropping off?</p></div>
+      <div class="who-card"><img class="ic-img" src="https://clinic-catalyst-au.github.io/fire-your-agency/cc-prob-1.png" alt=""><h4>$3,000-$8,000/month in retainers</h4><p>For ads you can't see into, systems you don't control, and results you can't explain. And the contract renewal is coming up.</p></div>
+      <div class="who-card"><img class="ic-img" src="https://clinic-catalyst-au.github.io/fire-your-agency/cc-prob-2.png" alt=""><h4>Complete dependency on the agency</h4><p>They leave, the whole machine falls apart. Worse - you don't even know what's running or why. You're locked out of your own growth.</p></div>
+      <div class="who-card"><img class="ic-img" src="https://clinic-catalyst-au.github.io/fire-your-agency/cc-prob-3.png" alt=""><h4>Leads going cold while you wait</h4><p>A patient enquires at 8pm. Nobody follows up. By 9am they've booked somewhere else. Speed is the game and agencies don't move fast enough.</p></div>
+      <div class="who-card"><img class="ic-img" src="https://clinic-catalyst-au.github.io/fire-your-agency/cc-prob-4.png" alt=""><h4>Zero visibility into what's actually working</h4><p>You get a monthly report with vanity metrics. But you still can't answer: how many enquiries became patients? Where are leads dropping off?</p></div>
     </div>
   </div>
 </section>
@@ -332,7 +332,7 @@ footer .cities{font-family:'Montserrat',sans-serif;font-size:.66rem;font-weight:
   <div class="wrap">
     <div class="label">The Deliverables</div>
     <h2 class="section-title">Everything you walk away owning.</h2>
-    <p class="section-lead">A fully operational patient acquisition system - deployed in your own accounts, live before you leave, and yours forever.</p>
+    <p class="section-lead">A fully operational patient acquisition system - deployed in your own accounts, live before you leave, and yours forever. It runs quietly underneath while you get back to the treatment room, where you actually want to be.</p>
     <div class="walk-grid">
       <div class="walk-card"><h4>Meta &amp; Google Ads - Launched Live</h4><p>Accounts verified, tracking confirmed, full campaigns written to your offer - launched before you leave the room.</p></div>
       <div class="walk-card"><h4>AI Receptionist + Voice Agent</h4><p>Every enquiry answered in seconds, day and night, by chat and phone - trained on your clinic's own knowledge, sounding like your front desk on its best day.</p></div>
@@ -426,7 +426,7 @@ footer .cities{font-family:'Montserrat',sans-serif;font-size:.66rem;font-weight:
 <section class="block dark-alt" id="eoi">
   <div class="wrap">
     <h2 class="section-title" style="text-align:center;">Stop paying monthly. Learn once. Own it forever.</h2>
-    <p class="section-lead" style="text-align:center;margin:0 auto 2.4rem;">One workshop. A system that runs your patient acquisition every single day after.</p>
+    <p class="section-lead" style="text-align:center;margin:0 auto 2.4rem;">One workshop. A system that runs your patient acquisition every single day after - while you stay in the treatment room.</p>
     <div class="eoi-box">
       <ul class="eoi-list">
         <li>3 full days of hands-on building with Alicia and Kelly</li>
@@ -480,8 +480,8 @@ footer .cities{font-family:'Montserrat',sans-serif;font-size:.66rem;font-weight:
 <!-- FINAL CTA -->
 <section class="block final">
   <div class="wrap">
-    <h2>Stop paying for a system <em>you could own.</em></h2>
-    <p>Three days. Everything built. No agency required - ever again.</p>
+    <h2>Get out of your admin and <em>back into the treatment room.</em></h2>
+    <p>Three days. Everything built, launched and owned. No agency required - ever again.</p>
     <a href="#eoi" class="btn-primary">Reserve Your Seat</a>
     <p style="margin-top:1.4rem;font-size:.8rem;color:rgba(255,255,255,.55);">Melbourne · Brisbane · Sydney · Perth · Limited seats per city</p>
   </div>
